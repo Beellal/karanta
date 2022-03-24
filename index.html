@@ -29,13 +29,13 @@
                       <a class="nav-link text-dark " aria-current="page" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark " aria-current="page" href="#">Explorer</a>
+                      <a class="nav-link text-dark " aria-current="page" href="#pourquoi">pourquoi</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark" href="#">Creer</a>
+                      <a class="nav-link text-dark" href="#Auteur">Auteur</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark">Partager</a>
+                      <a class="nav-link text-dark" href="#inscrire">Inscrire</a>
                     </li>
                   </ul>
                   
@@ -48,22 +48,24 @@
      <!--fin de barre de navigation-->
      <!--1ere partie-->
     <section class="p-0" style="background: url(pp.jpg); background-repeat: no-repeat; background-size: cover; background-position: fixed;">
+       <div style="background-color: rgba(0, 255, 255, 0.445);">
         <div class="container">
-            <div class="row py-5 p-0">
-                <div class="col-12 col-sm-7 col-md-7 text-center fs-5 py-5 m-2">
-                    <h1 class="m-3 p-3">
-                    Lire et Ecrire,<br> <br>
-                    Compter,<br> <br>
-                    Coder... <br></h1>
-                    <p>Cherche le savoir et le savoir te fera un homme libre <br>
-                    car l'ingnorance est plus sombre que la nuit</p>
-                    <button class="btn">Voir Plus</button>
-                </div>
-                <div class="col-10 col-sm-4 col-md-3 py-5">
-                    <img class="karanta1" src="images-6.jpg" style="width: 300px; height: 400px; margin-top: 10%;" alt="" >
-                </div>
-            </div>
-        </div>
+          <div class="row py-5 p-0">
+              <div class="col-12 col-sm-12 col-md-7 col-lg-7 text-center fs-5 py-5 ">
+                  <h1 class="m-3 p-3">
+                  Lire et Ecrire,<br> <br>
+                  Compter,<br> <br>
+                  Coder... <br></h1>
+                  <p>Cherche le savoir et le savoir te fera un homme libre <br>
+                  car l'ingnorance est plus sombre que la nuit</p>
+                  <button class="btn">Voir Plus</button>
+              </div>
+              <div class="col-12 col-sm-12 col-md-5 col-lg-5 py-5">
+                  <img class="karanta1" src="images-6.jpg" style="width: 300px; height: 400px; margin-top: 10%;" alt="" >
+              </div>
+          </div>
+      </div>
+       </div>
     </section>
      <!--fin de la premiere partie-->
 
@@ -73,20 +75,15 @@
     <div class="bg-dark">
         <div class="container py-5">
             <div class="row py-3 text-center">
-                <div class="col-12 py-2 col-sm">
-                    <input type="text" placeholder="Entrer votre nom">
-                </div>
-                <div class="col-12  py-2 col-sm">
-                    <input type="text" placeholder="Entrer votre email">
-                </div>
-                <div class="col-12 col-sm  ">
-                   <button class="btn-primary btn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                  </svg> souscrire</button>
-            
-            </div>
-        </div>
+              <input class="w-25 offset-1" type="text" placeholder="Entrer votre nom">
+              <input  class="w-25 mx-2 " type="text" placeholder="Entrer votre email">
+              <button class="btn-primary btn w-25" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg> souscrire</button>
+        
+             
     </div>
+        </div>
   </div>
     <div class="container">
       <div class="row px-2 py-5">
@@ -131,7 +128,7 @@
 
 
 <!--3eme Partie-->
-<section class="py-3">
+<section class="py-3" id="pourquoi">
   <div class="container text-center">
     <h1 class="text-primary">Pourquoi ce livre ?
     </h1>
@@ -200,7 +197,7 @@
 
 <!--4eme Section-->
 
-<section class="py-4">
+<section class="py-4" id="Auteur">
   <div class="container">
     <div class="row py-4">
       <h1 class="text-center text-primary">Les auteurs</h1>
@@ -208,7 +205,7 @@
          de l'étude, la conception du protocole, l'analyse et l'interprétation des données, l'élaboration des conclusions.</p>
     </div>
     <div class="row">
-       <div class="col">
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3">
         <div class="card" style="">
           <img src="yahaya.jpg" class="card-img-top" style="border-radius: 50%; width: 200px; height: 200px; margin-left: 15%;" alt="...">
           <div class="card-body">
@@ -236,7 +233,7 @@
           </div>
         </div>
        </div>
-       <div class="col">
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3">
         <div class="card" style="">
           <img src="aissa.jpg" class="card-img-top" style="border-radius: 50%; width: 200px; height: 200px; margin-left: 15%; " alt="...">
           <div class="card-body">
@@ -264,7 +261,7 @@
           </div>
         </div>
        </div>
-       <div class="col">
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3">
         <div class="card" style="">
           <img src="Bilal.jpg" class="card-img-top" style="border-radius: 50%; width: 200px; height: 200px; margin-left: 15%;" alt="...">
           <div class="card-body">
@@ -292,7 +289,7 @@
           </div>
         </div>
        </div>
-       <div class="col">
+       <div class="col-12 col-sm-12 col-md-3 col-lg-3-12 col-sm-12 col-md-3 col-lg-3">
         <div class="card" style="">
           <img src="Mahamane Habibou.jpg" class="card-img-top" style="border-radius: 50%; width: 200px; height: 200px; margin-left: 15%;" alt="...">
           <div class="card-body">
@@ -328,7 +325,7 @@
 <!--Fin de la 4eme section-->
 
 <!--5eme section-->
-<section class="">
+<section class="" id="inscrire">
   <div class="container">
     <div class="row">
       <h1 class="">Nous ecrire</h1>
@@ -372,7 +369,7 @@
 <!--Footer-->
 <footer class="bg-primary py-3">
   <div class="container">
-    <p class="text-end">Copyright @ Karanta2022</p>
+    <p class="text-center">Copyright @ Karanta2022</p>
   </div>
 
 </footer>
